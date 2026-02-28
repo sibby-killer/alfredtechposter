@@ -11,7 +11,7 @@ const STITCH_API_KEY = process.env.STITCH_API_KEY; // Using the provided key
 const STITCH_API_URL = 'https://stitch.googleapis.com/mcp';
 
 function getStitchPrompt(contentType, niche) {
-    const base = "Clean, simple, highly professional modern desktop UI design. Use realistic Kenyan/African people in the photography. The currency must be Kenyan Shillings (Ksh) for any pricing. High-end, clean studio quality, perfectly legible text. No generic AI look.";
+    const base = "Clean, simple, highly professional modern desktop UI design. Use realistic Kenyan/African people in the photography. The currency must be Kenyan Shillings (Ksh) for any pricing. High-end, clean studio quality, perfectly legible text. No generic AI look. CRITICAL INSTRUCTION: Generate ONLY the top hero section (above-the-fold) of the website. DO NOT make a long scrolling page. The screen must exactly fit a standard 1280x1080 desktop viewport so all text remains extremely large, clear, and perfectly readable on social media.";
 
     if (contentType === 'portfolio_website' || contentType === 'tips_tricks') {
         return `Create a complete 4-page website layout for a premium ${niche} business. Provide 4 distinct screens: Home page, About Us page, Services/Pricing page, and Contact page. ${base}`;
