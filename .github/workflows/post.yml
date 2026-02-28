@@ -1,0 +1,74 @@
+name: Alfred Tech — Facebook Auto Poster (8x Daily)
+
+on:
+  schedule:
+    # All times UTC (Kenya EAT = UTC+3)
+    - cron: '0 4 * * *'   # Post 1: 7:00 AM EAT  — Portfolio Showcase
+    - cron: '0 6 * * *'   # Post 2: 9:00 AM EAT  — Tips & Tricks
+    - cron: '0 8 * * *'   # Post 3: 11:00 AM EAT — Automation Showcase
+    - cron: '0 10 * * *'  # Post 4: 1:00 PM EAT  — Before/After
+    - cron: '0 12 * * *'  # Post 5: 3:00 PM EAT  — Pricing/Services
+    - cron: '0 14 * * *'  # Post 6: 5:00 PM EAT  — Social Proof
+    - cron: '0 16 * * *'  # Post 7: 7:00 PM EAT  — Problem Post + Auto Comment
+    - cron: '0 18 * * *'  # Post 8: 9:00 PM EAT  — Fun Fact
+  workflow_dispatch:
+    inputs:
+      post_number:
+        description: 'Post number to run (1-8)'
+        required: false
+        default: '1'
+
+jobs:
+  post-content:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Detect post number from schedule
+        id: post-num
+        run: |
+          HOUR=$(date -u +%H | sed 's/^0//')
+          case "$HOUR" in
+            4)  POST=1 ;;
+            6)  POST=2 ;;
+            8)  POST=3 ;;
+            10) POST=4 ;;
+            12) POST=5 ;;
+            14) POST=6 ;;
+            16) POST=7 ;;
+            18) POST=8 ;;
+            *)  POST="${{ github.event.inputs.post_number || '1' }}" ;;
+          esac
+          echo "post_number=$POST" >> $GITHUB_OUTPUT
+          echo "▶ Running Post #$POST"
+
+      - name: Generate & Post Content
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          STITCH_API_KEY: ${{ secrets.STITCH_API_KEY }}
+          BUSINESS_NAME: "Alfred Tech Solutions"
+          BUSINESS_PHONE: "+254762667048"
+          BUSINESS_EMAIL: "alfred.dev8@gmail.com"
+          LANDING_PAGE_URL: ${{ secrets.LANDING_PAGE_URL }}
+          POST_NUMBER: ${{ steps.post-num.outputs.post_number }}
+        run: node src/index.js ${{ steps.post-num.outputs.post_number }}
+
+      - name: Commit and push post history
+        if: always() # Run even if Previous step fails so we capture errors
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json
+          # Only commit if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update post history docs/data.json" && git push)

@@ -1,0 +1,24 @@
+{
+  "name": "alfred-tech-facebook-automation",
+  "version": "1.0.0",
+  "description": "Auto-generate and post 7 daily branded posts to Alfred Tech Solutions Facebook Page",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "post": "node src/index.js",
+    "test-post": "node src/test-post.js",
+    "test-image": "node src/test-image.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "groq-sdk": "^0.37.0",
+    "node-fetch": "^2.7.0",
+    "playwright": "^1.58.2",
+    "sharp": "^0.33.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
