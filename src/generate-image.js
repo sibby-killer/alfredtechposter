@@ -96,8 +96,17 @@ async function generateStitchImage(prompt, outputPath) {
         savedPaths.push(currentPath);
     }
 
-    console.log(`✅ ${savedPaths.length} Stitch Image(s) saved!`);
-    return savedPaths;
+    console.log(`✅ ${savedPaths.length} Stitch Image(s) saved! Executing Quality Upscale...`);
+    const { upscaleImage } = require('./upscale');
+    const upscaledPaths = [];
+
+    for (const imgPath of savedPaths) {
+        const upscaled = await upscaleImage(imgPath);
+        upscaledPaths.push(upscaled);
+    }
+
+    console.log(`✅ ${upscaledPaths.length} Image(s) Upscaled & Ready!`);
+    return upscaledPaths;
 }
 
 // Main generation function
