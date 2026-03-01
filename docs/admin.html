@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfred Tech Solutions — Automation Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+    <!-- Login Overlay -->
+    <div id="login-overlay"
+        class="fixed inset-0 bg-gray-900 z-50 flex flex-col items-center justify-center p-4 transition-opacity duration-300">
+        <div class="bg-white p-8 rounded-xl shadow-2xl w-full max-w-md text-center">
+            <div
+                class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                <i class="fas fa-lock"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">Admin Dashboard</h2>
+            <p class="text-gray-500 mb-6 text-sm">Protected Area. Authorized personnel only.</p>
+
+            <div id="login-error" class="hidden mb-4 p-3 bg-red-50 text-red-600 text-sm rounded-lg">
+                Access Denied. Incorrect credentials. Redirecting...
+            </div>
+
+            <form id="login-form" class="space-y-4" onsubmit="handleLogin(event)">
+                <div>
+                    <input type="email" id="admin-email" placeholder="Email Address" required
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow text-left">
+                </div>
+                <div>
+                    <input type="password" id="admin-password" placeholder="Password" required
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow text-left">
+                </div>
+                <button type="submit"
+                    class="w-full bg-blue-600 text-white font-medium py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                    Access Dashboard
+                </button>
+            </form>
+            <div class="mt-6 text-sm text-gray-400">
+                <a href="index.html" class="hover:text-gray-600 transition-colors">← Return to Public Website</a>
+            </div>
+        </div>
+    </div>
+    <div class="flex h-screen overflow-hidden">
+
+        <!-- Sidebar -->
+        <aside class="w-64 bg-gray-900 text-white flex flex-col hidden md:flex">
+            <div class="p-6 border-b border-gray-800">
+                <h1 class="text-xl font-bold tracking-tight">Alfred Tech</h1>
+                <p class="text-xs text-gray-400 mt-1">Automation Dashboard</p>
+            </div>
+            <nav class="flex-1 p-4 space-y-2">
+                <a href="#"
+                    class="flex items-center space-x-3 px-4 py-3 bg-blue-600 rounded-lg text-sm font-medium transition-colors">
+                    <i class="fas fa-home w-5"></i>
+                    <span>Overview</span>
+                </a>
+                <a href="https://github.com/settings/tokens" target="_blank"
+                    class="flex items-center space-x-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-gray-800 rounded-lg text-sm font-medium transition-colors">
+                    <i class="fas fa-cog w-5"></i>
+                    <span>Settings</span>
+                </a>
+                <a href="https://facebook.com/976168628917190" target="_blank"
+                    class="flex items-center space-x-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-gray-800 rounded-lg text-sm font-medium transition-colors">
+                    <i class="fab fa-facebook w-5"></i>
+                    <span>View Page</span>
+                </a>
+            </nav>
+            <div class="p-4 border-t border-gray-800">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-sm font-bold">A
+                    </div>
+                    <div>
+                        <p class="text-sm font-medium">Alfred</p>
+                        <p class="text-xs text-gray-400">Admin</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 flex flex-col overflow-hidden relative">
+
+            <!-- Header -->
+            <header class="bg-white border-b border-gray-200 px-8 py-5 flex items-center justify-between z-10">
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-900">Post Automation Activity</h2>
+                    <p class="text-sm text-gray-500 mt-1">Monitoring the 7x daily Facebook posting pipeline.</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button onclick="fetchData()"
+                        class="px-4 py-2 bg-blue-50 text-blue-600 hover:bg-blue-100 rounded-lg text-sm font-medium transition-colors flex items-center space-x-2">
+                        <i class="fas fa-sync-alt" id="refresh-icon"></i>
+                        <span>Refresh Data</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Dashboard Content -->
+            <div class="flex-1 overflow-y-auto p-8">
+
+                <!-- Stats Row -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                    <!-- Total Posts -->
+                    <div class="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-gray-500">Total Posts Logged</p>
+                                <p class="text-3xl font-bold text-gray-900 mt-2" id="stat-total">0</p>
+                            </div>
+                            <div
+                                class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 text-xl">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Successful Posts -->
+                    <div class="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-gray-500">Successful Posts</p>
+                                <p class="text-3xl font-bold text-green-600 mt-2" id="stat-success">0</p>
+                            </div>
+                            <div
+                                class="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center text-green-600 text-xl">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Failed Posts -->
+                    <div class="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-gray-500">Failed Posts</p>
+                                <p class="text-3xl font-bold text-red-600 mt-2" id="stat-failed">0</p>
+                            </div>
+                            <div
+                                class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center text-red-600 text-xl">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Last Update Status -->
+                <div class="mb-6 flex items-center space-x-2 text-sm text-gray-500">
+                    <i class="fas fa-clock"></i>
+                    <span>Last completed run: <strong class="text-gray-900" id="last-run-time">Never</strong></span>
+                    <span class="mx-2">•</span>
+                    <span id="system-status-indicator" class="flex items-center space-x-1.5 font-medium">
+                        <span class="w-2.5 h-2.5 rounded-full bg-gray-300"></span>
+                        <span>System Unknown</span>
+                    </span>
+                </div>
+
+                <!-- History Table -->
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <div class="px-6 py-4 border-b border-gray-200 bg-gray-50/50">
+                        <h3 class="font-semibold text-gray-800">Recent Automation Logs</h3>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr
+                                    class="bg-gray-50 text-gray-500 text-xs uppercase tracking-wider border-b border-gray-200">
+                                    <th class="px-6 py-4 font-medium">Status</th>
+                                    <th class="px-6 py-4 font-medium">Timestamp (Local)</th>
+                                    <th class="px-6 py-4 font-medium">Post #</th>
+                                    <th class="px-6 py-4 font-medium">Content Type</th>
+                                    <th class="px-6 py-4 font-medium text-right">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="history-tbody" class="divide-y divide-gray-100 text-sm">
+                                <!-- Loading State -->
+                                <tr>
+                                    <td colspan="5" class="px-6 py-8 text-center text-gray-500">
+                                        <i class="fas fa-circle-notch fa-spin text-blue-500 mb-2 text-xl"></i>
+                                        <p>Loading automation logs...</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Tailwind CSS (via CDN for static hosting ease) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -112,5 +112,49 @@ function updateDashboard(history) {
     });
 }
 
-// Initial fetch
-document.addEventListener('DOMContentLoaded', fetchData);
+// Simple client-side auth using SHA-256 hashing
+const ADMIN_EMAIL_HASH = "8bbaebb408a2feaf7b28dbaf3ce64f7b60fffc4524be3943343bd3efb5b4e727"; // alfred.dev8@gmail.com
+const ADMIN_PASS_HASH = "e36e6defc3e51240c498967f1b72b8d9ba4f4549fbb509b5581eebf0945d8b85"; // alfred2026
+
+async function sha256(message) {
+    const msgBuffer = new TextEncoder().encode(message);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+function checkLoginState() {
+    const isLoggedIn = localStorage.getItem('alfred_admin_logged_in');
+    const overlay = document.getElementById('login-overlay');
+    if (isLoggedIn === 'true' && overlay) {
+        overlay.classList.add('hidden');
+        fetchData();
+    } else if (!overlay) {
+        fetchData(); // Fallback if overlay is removed
+    }
+}
+
+async function handleLogin(e) {
+    e.preventDefault();
+    const email = document.getElementById('admin-email').value.trim().toLowerCase();
+    const pass = document.getElementById('admin-password').value;
+    const errorBox = document.getElementById('login-error');
+
+    const emailHash = await sha256(email);
+    const passHash = await sha256(pass);
+
+    if (emailHash === ADMIN_EMAIL_HASH && passHash === ADMIN_PASS_HASH) {
+        localStorage.setItem('alfred_admin_logged_in', 'true');
+        document.getElementById('login-overlay').classList.add('hidden');
+        errorBox.classList.add('hidden');
+        fetchData();
+    } else {
+        errorBox.classList.remove('hidden');
+        setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 2000);
+    }
+}
+
+// Check login before fetching data
+document.addEventListener('DOMContentLoaded', checkLoginState);
