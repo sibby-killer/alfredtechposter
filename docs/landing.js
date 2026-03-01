@@ -159,9 +159,12 @@ function renderPortfolio(posts) {
             <div class="portfolio-overlay absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
                 <span class="text-blue-400 text-xs font-bold tracking-wider uppercase mb-1">${contentType}</span>
                 <h3 class="text-white font-heading font-bold text-xl mb-3">${post.niche} Website</h3>
-                <a href="${fbLink}" target="_blank" class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-500 transition-colors shadow-lg transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 duration-300">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
+                <p class="text-slate-300 text-sm mb-4 line-clamp-2">This is an automated 4-page UI mockup designed by our AI engine for the ${post.niche} industry.</p>
+                <div class="flex items-center space-x-3 transition-all transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 duration-300">
+                    <a href="${fbLink}" target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold px-4 py-2 rounded-full flex items-center transition-colors shadow-lg">
+                        See Full Post <i class="fab fa-facebook-f ml-2"></i>
+                    </a>
+                </div>
             </div>
         `;
         grid.appendChild(card);
