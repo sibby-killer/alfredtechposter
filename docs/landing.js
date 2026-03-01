@@ -1,7 +1,7 @@
 // docs/landing.js
 
 const WHATSAPP_NUMBER = "254762667048";
-const GOOGLE_SHEETS_WEBHOOK_URL = ""; // Fill this in Phase 5 part 2
+const GOOGLE_SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycby2cy41bXNxZNoYLmKbnF0po0FQoRP8jAG_0Bb0EsPYMkeF_qDz7f18ksXAb1uAPZwe/exec"; // Fill this in Phase 5 part 2
 
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Mobile Menu Toggle
