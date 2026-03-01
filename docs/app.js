@@ -113,8 +113,8 @@ function updateDashboard(history) {
 }
 
 // Simple client-side auth using SHA-256 hashing
-const ADMIN_EMAIL_HASH = "8bbaebb408a2feaf7b28dbaf3ce64f7b60fffc4524be3943343bd3efb5b4e727"; // alfred.dev8@gmail.com
-const ADMIN_PASS_HASH = "e36e6defc3e51240c498967f1b72b8d9ba4f4549fbb509b5581eebf0945d8b85"; // alfred2026
+const ADMIN_EMAIL_HASH = "c6b751709eb4b4e0483b5feb92b3c8d686ca9aa738fa077c426b4924c5cc4349"; // alfred.dev8@gmail.com
+const ADMIN_PASS_HASH = "a87b9fe9c99aa70cf947c2432f26d379d3756bd340cc2a0ca3873fbf72af6593"; // alfred2026
 
 async function sha256(message) {
     const msgBuffer = new TextEncoder().encode(message);
