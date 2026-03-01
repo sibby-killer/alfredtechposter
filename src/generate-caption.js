@@ -180,6 +180,7 @@ async function generateCaption(contentType, websiteNiche, automationNiche, postN
       {
         role: 'system',
         content: `You are a social media manager for Alfred Tech Solutions, a Kenyan web design and automation agency.
+The current year is NEVER 2025. The current year is STRICTLY ${new Date().getFullYear()}. ABSOLUTELY DO NOT USE THE YEAR 2025 IN ANY POSTS!
 Write SHORT, punchy Facebook posts that stop the scroll and drive engagement.
 Use natural Kenyan English. Be human, not corporate. Never sound like AI.
 Always keep posts under 200 words unless told otherwise.`
