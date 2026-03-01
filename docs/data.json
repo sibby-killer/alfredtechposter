@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-03-01T10:24:04.399Z",
+    "success": false,
+    "postNumber": 4,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-03-01T08:39:53.843Z",
     "success": false,
     "postNumber": 3,
