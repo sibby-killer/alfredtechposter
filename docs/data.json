@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-03-13T13:06:46.807Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-03-13T10:35:27.223Z",
     "success": false,
     "postNumber": 4,
@@ -619,14 +625,6 @@
     "postNumber": 2,
     "postId": "976168628917190_122097087195259556",
     "contentType": "tips_tricks",
-    "niche": "E-commerce Shop"
-  },
-  {
-    "timestamp": "2026-03-01T05:17:13.637Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122097028413259556",
-    "contentType": "portfolio_website",
     "niche": "E-commerce Shop"
   }
 ]
