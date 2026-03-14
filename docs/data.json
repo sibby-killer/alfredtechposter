@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-03-14T16:40:56.180Z",
+    "success": false,
+    "postNumber": 7,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-03-14T14:21:50.084Z",
     "success": false,
     "postNumber": 6,
@@ -604,13 +610,5 @@
     "postId": "976168628917190_122098078827259556",
     "contentType": "automation_showcase",
     "niche": "Google Sheets Data Automation"
-  },
-  {
-    "timestamp": "2026-03-02T06:41:38.576Z",
-    "success": true,
-    "postNumber": 2,
-    "postId": "976168628917190_122097981441259556",
-    "contentType": "tips_tricks",
-    "niche": "Professional Services (Lawyer/Doctor)"
   }
 ]
