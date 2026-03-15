@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-03-15T13:00:43.264Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-03-15T10:28:00.150Z",
     "success": false,
     "postNumber": 4,
@@ -592,13 +598,5 @@
     "success": false,
     "postNumber": 1,
     "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-03-02T18:53:40.665Z",
-    "success": true,
-    "postNumber": 8,
-    "postId": "976168628917190_122098531551259556",
-    "contentType": "fun_fact",
-    "niche": "Professional Services (Lawyer/Doctor)"
   }
 ]
