@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-16T11:01:23.107Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122108817147259556",
+    "contentType": "portfolio_website",
+    "niche": "Real Estate Agency"
+  },
+  {
     "timestamp": "2026-04-16T09:26:48.612Z",
     "success": true,
     "postNumber": 1,
@@ -613,12 +621,6 @@
     "timestamp": "2026-04-04T05:19:37.312Z",
     "success": false,
     "postNumber": 1,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-03T18:51:17.522Z",
-    "success": false,
-    "postNumber": 8,
     "error": "Request failed with status code 400"
   }
 ]
