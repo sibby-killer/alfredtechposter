@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-18T16:52:47.219Z",
+    "success": true,
+    "postNumber": 7,
+    "postId": "976168628917190_122109069273259556",
+    "contentType": "problem_post",
+    "niche": "Church / NGO"
+  },
+  {
     "timestamp": "2026-04-18T14:36:00.754Z",
     "success": true,
     "postNumber": 6,
@@ -651,12 +659,6 @@
     "timestamp": "2026-04-06T10:55:11.405Z",
     "success": false,
     "postNumber": 4,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-06T09:17:04.890Z",
-    "success": false,
-    "postNumber": 1,
     "error": "Request failed with status code 400"
   }
 ]
