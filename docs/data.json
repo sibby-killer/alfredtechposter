@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-18T08:59:29.037Z",
+    "success": true,
+    "postNumber": 3,
+    "postId": "976168628917190_122109027561259556",
+    "contentType": "automation_showcase",
+    "niche": "Lead Collection & Follow-up System"
+  },
+  {
     "timestamp": "2026-04-18T06:53:00.100Z",
     "success": true,
     "postNumber": 2,
@@ -643,12 +651,6 @@
     "timestamp": "2026-04-05T18:48:19.606Z",
     "success": false,
     "postNumber": 8,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-05T16:47:33.851Z",
-    "success": false,
-    "postNumber": 7,
     "error": "Request failed with status code 400"
   }
 ]
