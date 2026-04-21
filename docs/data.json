@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-21T19:15:41.431Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122109409893259556",
+    "contentType": "portfolio_website",
+    "niche": "School / Academy"
+  },
+  {
     "timestamp": "2026-04-21T17:12:06.875Z",
     "success": true,
     "postNumber": 1,
@@ -701,12 +709,6 @@
     "timestamp": "2026-04-09T13:49:16.501Z",
     "success": false,
     "postNumber": 1,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-09T10:57:32.056Z",
-    "success": false,
-    "postNumber": 4,
     "error": "Request failed with status code 400"
   }
 ]
