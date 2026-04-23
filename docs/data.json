@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-23T06:02:35.704Z",
+    "success": true,
+    "postNumber": 2,
+    "postId": "976168628917190_122109557631259556",
+    "contentType": "tips_tricks",
+    "niche": "Real Estate Agency"
+  },
+  {
     "timestamp": "2026-04-22T19:16:42.861Z",
     "success": true,
     "postNumber": 1,
@@ -719,12 +727,6 @@
     "timestamp": "2026-04-10T14:42:52.377Z",
     "success": false,
     "postNumber": 6,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-10T13:18:57.759Z",
-    "success": false,
-    "postNumber": 1,
     "error": "Request failed with status code 400"
   }
 ]
