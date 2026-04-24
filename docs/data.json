@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-24T06:05:01.793Z",
+    "success": true,
+    "postNumber": 2,
+    "postId": "976168628917190_122109657963259556",
+    "contentType": "tips_tricks",
+    "niche": "Salon & Beauty"
+  },
+  {
     "timestamp": "2026-04-23T19:13:15.029Z",
     "success": true,
     "postNumber": 1,
@@ -735,12 +743,6 @@
     "timestamp": "2026-04-11T14:30:24.138Z",
     "success": false,
     "postNumber": 6,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-11T13:06:06.516Z",
-    "success": false,
-    "postNumber": 1,
     "error": "Request failed with status code 400"
   }
 ]
