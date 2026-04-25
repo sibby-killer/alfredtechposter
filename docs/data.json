@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-25T06:58:48.964Z",
+    "success": true,
+    "postNumber": 2,
+    "postId": "976168628917190_122109777057259556",
+    "contentType": "tips_tricks",
+    "niche": "Church / NGO"
+  },
+  {
     "timestamp": "2026-04-25T05:45:20.913Z",
     "success": true,
     "postNumber": 1,
@@ -753,12 +761,6 @@
     "timestamp": "2026-04-12T16:50:55.643Z",
     "success": false,
     "postNumber": 7,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-12T14:35:38.802Z",
-    "success": false,
-    "postNumber": 6,
     "error": "Request failed with status code 400"
   }
 ]
