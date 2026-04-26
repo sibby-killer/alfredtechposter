@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-26T18:58:48.221Z",
+    "success": true,
+    "postNumber": 8,
+    "postId": "976168628917190_122109937455259556",
+    "contentType": "fun_fact",
+    "niche": "E-commerce Shop"
+  },
+  {
     "timestamp": "2026-04-26T16:55:21.952Z",
     "success": true,
     "postNumber": 7,
@@ -779,12 +787,6 @@
   },
   {
     "timestamp": "2026-04-14T13:50:51.036Z",
-    "success": false,
-    "postNumber": 1,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-14T11:01:30.648Z",
     "success": false,
     "postNumber": 1,
     "error": "Request failed with status code 400"
