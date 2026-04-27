@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-27T06:24:38.387Z",
+    "success": true,
+    "postNumber": 2,
+    "postId": "976168628917190_122109979587259556",
+    "contentType": "tips_tricks",
+    "niche": "Professional Services (Lawyer/Doctor)"
+  },
+  {
     "timestamp": "2026-04-26T18:58:48.221Z",
     "success": true,
     "postNumber": 8,
@@ -781,12 +789,6 @@
   },
   {
     "timestamp": "2026-04-14T15:07:36.712Z",
-    "success": false,
-    "postNumber": 1,
-    "error": "Request failed with status code 400"
-  },
-  {
-    "timestamp": "2026-04-14T13:50:51.036Z",
     "success": false,
     "postNumber": 1,
     "error": "Request failed with status code 400"
