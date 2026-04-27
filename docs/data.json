@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-27T11:43:23.540Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122110007307259556",
+    "contentType": "portfolio_website",
+    "niche": "Professional Services (Lawyer/Doctor)"
+  },
+  {
     "timestamp": "2026-04-27T10:24:00.138Z",
     "success": true,
     "postNumber": 4,
@@ -790,11 +798,5 @@
     "postId": "976168628917190_122108687211259556",
     "contentType": "portfolio_website",
     "niche": "Restaurant / Food Business"
-  },
-  {
-    "timestamp": "2026-04-14T19:19:05.528Z",
-    "success": false,
-    "postNumber": 1,
-    "error": "Request failed with status code 400"
   }
 ]
