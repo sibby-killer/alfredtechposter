@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-28T06:26:07.470Z",
+    "success": true,
+    "postNumber": 2,
+    "postId": "976168628917190_122110083951259556",
+    "contentType": "tips_tricks",
+    "niche": "School / Academy"
+  },
+  {
     "timestamp": "2026-04-27T19:25:46.068Z",
     "success": true,
     "postNumber": 1,
@@ -788,14 +796,6 @@
     "success": true,
     "postNumber": 1,
     "postId": "976168628917190_122108732589259556",
-    "contentType": "portfolio_website",
-    "niche": "Restaurant / Food Business"
-  },
-  {
-    "timestamp": "2026-04-15T13:45:56.208Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122108725671259556",
     "contentType": "portfolio_website",
     "niche": "Restaurant / Food Business"
   }
