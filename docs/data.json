@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-04-30T17:38:49.373Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122110418037259556",
+    "contentType": "portfolio_website",
+    "niche": "Real Estate Agency"
+  },
+  {
     "timestamp": "2026-04-30T15:43:55.880Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122109037185259556",
     "contentType": "before_after",
     "niche": "Church / NGO"
-  },
-  {
-    "timestamp": "2026-04-18T08:59:29.037Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122109027561259556",
-    "contentType": "automation_showcase",
-    "niche": "Lead Collection & Follow-up System"
   }
 ]
