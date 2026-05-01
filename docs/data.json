@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-01T14:47:54.344Z",
+    "success": true,
+    "postNumber": 6,
+    "postId": "976168628917190_122110527705259556",
+    "contentType": "social_proof",
+    "niche": "Salon & Beauty"
+  },
+  {
     "timestamp": "2026-05-01T13:25:30.768Z",
     "success": true,
     "postNumber": 1,
@@ -788,14 +796,6 @@
     "success": true,
     "postNumber": 1,
     "postId": "976168628917190_122109146709259556",
-    "contentType": "portfolio_website",
-    "niche": "E-commerce Shop"
-  },
-  {
-    "timestamp": "2026-04-19T07:03:18.184Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122109137451259556",
     "contentType": "portfolio_website",
     "niche": "E-commerce Shop"
   }
