@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-02T10:50:38.113Z",
+    "success": true,
+    "postNumber": 4,
+    "postId": "976168628917190_122110602465259556",
+    "contentType": "before_after",
+    "niche": "Church / NGO"
+  },
+  {
     "timestamp": "2026-05-02T09:14:02.045Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122109236685259556",
     "contentType": "tips_tricks",
     "niche": "Professional Services (Lawyer/Doctor)"
-  },
-  {
-    "timestamp": "2026-04-19T18:54:36.993Z",
-    "success": true,
-    "postNumber": 8,
-    "postId": "976168628917190_122109191529259556",
-    "contentType": "fun_fact",
-    "niche": "E-commerce Shop"
   }
 ]
