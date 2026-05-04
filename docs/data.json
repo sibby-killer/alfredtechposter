@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-04T08:10:12.410Z",
+    "success": true,
+    "postNumber": 3,
+    "postId": "976168628917190_122110847835259556",
+    "contentType": "automation_showcase",
+    "niche": "Google Sheets Data Automation"
+  },
+  {
     "timestamp": "2026-05-04T06:35:14.013Z",
     "success": true,
     "postNumber": 2,
@@ -788,14 +796,6 @@
     "success": true,
     "postNumber": 1,
     "postId": "976168628917190_122109403095259556",
-    "contentType": "portfolio_website",
-    "niche": "School / Academy"
-  },
-  {
-    "timestamp": "2026-04-21T15:06:11.625Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122109389655259556",
     "contentType": "portfolio_website",
     "niche": "School / Academy"
   }
