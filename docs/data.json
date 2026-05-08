@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-08T15:14:52.312Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122111383575259556",
+    "contentType": "portfolio_website",
+    "niche": "Salon & Beauty"
+  },
+  {
     "timestamp": "2026-05-08T13:57:41.140Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122109875691259556",
     "contentType": "tips_tricks",
     "niche": "E-commerce Shop"
-  },
-  {
-    "timestamp": "2026-04-25T18:56:44.659Z",
-    "success": true,
-    "postNumber": 8,
-    "postId": "976168628917190_122109834681259556",
-    "contentType": "fun_fact",
-    "niche": "Church / NGO"
   }
 ]
