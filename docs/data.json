@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-10T09:44:07.224Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122111566107259556",
+    "contentType": "portfolio_website",
+    "niche": "E-commerce Shop"
+  },
+  {
     "timestamp": "2026-05-10T07:50:05.669Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122110026327259556",
     "contentType": "portfolio_website",
-    "niche": "Professional Services (Lawyer/Doctor)"
-  },
-  {
-    "timestamp": "2026-04-27T14:02:14.341Z",
-    "success": true,
-    "postNumber": 6,
-    "postId": "976168628917190_122110018797259556",
-    "contentType": "social_proof",
     "niche": "Professional Services (Lawyer/Doctor)"
   }
 ]
