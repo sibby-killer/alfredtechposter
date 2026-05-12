@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-12T16:14:22.258Z",
+    "success": true,
+    "postNumber": 7,
+    "postId": "976168628917190_122111771067259556",
+    "contentType": "problem_post",
+    "niche": "School / Academy"
+  },
+  {
     "timestamp": "2026-05-12T14:32:04.164Z",
     "success": true,
     "postNumber": 6,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122110356633259556",
     "contentType": "tips_tricks",
     "niche": "Real Estate Agency"
-  },
-  {
-    "timestamp": "2026-04-29T19:28:15.447Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122110307307259556",
-    "contentType": "portfolio_website",
-    "niche": "Restaurant / Food Business"
   }
 ]
