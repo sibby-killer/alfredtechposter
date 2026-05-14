@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-14T16:06:57.106Z",
+    "success": true,
+    "postNumber": 7,
+    "postId": "976168628917190_122111948889259556",
+    "contentType": "problem_post",
+    "niche": "Real Estate Agency"
+  },
+  {
     "timestamp": "2026-05-14T14:22:03.018Z",
     "success": true,
     "postNumber": 6,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122110584255259556",
     "contentType": "tips_tricks",
     "niche": "Church / NGO"
-  },
-  {
-    "timestamp": "2026-05-01T19:14:50.121Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122110546941259556",
-    "contentType": "portfolio_website",
-    "niche": "Salon & Beauty"
   }
 ]
