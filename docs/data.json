@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-15T14:13:30.118Z",
+    "success": true,
+    "postNumber": 6,
+    "postId": "976168628917190_122112037419259556",
+    "contentType": "social_proof",
+    "niche": "Salon & Beauty"
+  },
+  {
     "timestamp": "2026-05-15T11:55:04.046Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122110635267259556",
     "contentType": "portfolio_website",
-    "niche": "Church / NGO"
-  },
-  {
-    "timestamp": "2026-05-02T16:59:15.223Z",
-    "success": true,
-    "postNumber": 7,
-    "postId": "976168628917190_122110628691259556",
-    "contentType": "problem_post",
     "niche": "Church / NGO"
   }
 ]
