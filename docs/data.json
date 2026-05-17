@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-17T08:03:41.769Z",
+    "success": true,
+    "postNumber": 3,
+    "postId": "976168628917190_122112166065259556",
+    "contentType": "automation_showcase",
+    "niche": "Auto Email Notification System"
+  },
+  {
     "timestamp": "2026-05-17T06:41:36.899Z",
     "success": true,
     "postNumber": 2,
@@ -789,14 +797,6 @@
     "postNumber": 6,
     "postId": "976168628917190_122110879797259556",
     "contentType": "social_proof",
-    "niche": "Professional Services (Lawyer/Doctor)"
-  },
-  {
-    "timestamp": "2026-05-04T11:47:06.486Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122110868469259556",
-    "contentType": "portfolio_website",
     "niche": "Professional Services (Lawyer/Doctor)"
   }
 ]
