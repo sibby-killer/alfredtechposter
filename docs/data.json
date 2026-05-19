@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-19T16:46:23.015Z",
+    "success": true,
+    "postNumber": 7,
+    "postId": "976168628917190_122112379083259556",
+    "contentType": "problem_post",
+    "niche": "School / Academy"
+  },
+  {
     "timestamp": "2026-05-19T15:31:31.663Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122111206641259556",
     "contentType": "before_after",
     "niche": "Real Estate Agency"
-  },
-  {
-    "timestamp": "2026-05-07T08:07:56.136Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122111185653259556",
-    "contentType": "automation_showcase",
-    "niche": "Social Media Auto-Posting System"
   }
 ]
