@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-23T14:54:35.905Z",
+    "success": true,
+    "postNumber": 6,
+    "postId": "976168628917190_122112765501259556",
+    "contentType": "social_proof",
+    "niche": "Church / NGO"
+  },
+  {
     "timestamp": "2026-05-23T13:42:17.193Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122111662641259556",
     "contentType": "portfolio_website",
     "niche": "Professional Services (Lawyer/Doctor)"
-  },
-  {
-    "timestamp": "2026-05-11T08:50:37.427Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122111651241259556",
-    "contentType": "automation_showcase",
-    "niche": "Google Sheets Data Automation"
   }
 ]
