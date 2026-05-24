@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-24T14:56:16.908Z",
+    "success": true,
+    "postNumber": 6,
+    "postId": "976168628917190_122112826563259556",
+    "contentType": "social_proof",
+    "niche": "E-commerce Shop"
+  },
+  {
     "timestamp": "2026-05-24T13:42:03.288Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122111746875259556",
     "contentType": "before_after",
     "niche": "School / Academy"
-  },
-  {
-    "timestamp": "2026-05-12T08:15:19.132Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122111730501259556",
-    "contentType": "automation_showcase",
-    "niche": "CRM & Dashboard Automation"
   }
 ]
