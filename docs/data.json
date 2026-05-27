@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-27T16:57:36.582Z",
+    "success": true,
+    "postNumber": 7,
+    "postId": "976168628917190_122113080309259556",
+    "contentType": "problem_post",
+    "niche": "Restaurant / Food Business"
+  },
+  {
     "timestamp": "2026-05-27T15:52:55.964Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122112008889259556",
     "contentType": "automation_showcase",
     "niche": "Invoice & Report Generator"
-  },
-  {
-    "timestamp": "2026-05-15T06:52:27.591Z",
-    "success": true,
-    "postNumber": 2,
-    "postId": "976168628917190_122112002535259556",
-    "contentType": "tips_tricks",
-    "niche": "Salon & Beauty"
   }
 ]
