@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-05-30T08:11:24.706Z",
+    "success": true,
+    "postNumber": 3,
+    "postId": "976168628917190_122113361691259556",
+    "contentType": "automation_showcase",
+    "niche": "Lead Collection & Follow-up System"
+  },
+  {
     "timestamp": "2026-05-30T06:42:24.062Z",
     "success": true,
     "postNumber": 2,
@@ -789,14 +797,6 @@
     "postNumber": 6,
     "postId": "976168628917190_122112187875259556",
     "contentType": "social_proof",
-    "niche": "E-commerce Shop"
-  },
-  {
-    "timestamp": "2026-05-17T13:27:19.050Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122112183291259556",
-    "contentType": "portfolio_website",
     "niche": "E-commerce Shop"
   }
 ]
