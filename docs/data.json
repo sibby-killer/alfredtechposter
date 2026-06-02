@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-02T12:11:47.258Z",
+    "success": true,
+    "postNumber": 5,
+    "postId": "976168628917190_122113610451259556",
+    "contentType": "pricing_services",
+    "niche": "School / Academy"
+  },
+  {
     "timestamp": "2026-06-02T09:54:24.825Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 8,
     "postId": "976168628917190_122112456891259556",
     "contentType": "fun_fact",
-    "niche": "Restaurant / Food Business"
-  },
-  {
-    "timestamp": "2026-05-20T16:46:56.402Z",
-    "success": true,
-    "postNumber": 7,
-    "postId": "976168628917190_122112452919259556",
-    "contentType": "problem_post",
     "niche": "Restaurant / Food Business"
   }
 ]
