@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-03T10:26:31.153Z",
+    "success": true,
+    "postNumber": 4,
+    "postId": "976168628917190_122113689159259556",
+    "contentType": "before_after",
+    "niche": "Restaurant / Food Business"
+  },
+  {
     "timestamp": "2026-06-03T08:50:21.687Z",
     "success": true,
     "postNumber": 3,
@@ -789,14 +797,6 @@
     "postNumber": 7,
     "postId": "976168628917190_122112528585259556",
     "contentType": "problem_post",
-    "niche": "Real Estate Agency"
-  },
-  {
-    "timestamp": "2026-05-21T15:35:27.746Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122112525759259556",
-    "contentType": "portfolio_website",
     "niche": "Real Estate Agency"
   }
 ]
