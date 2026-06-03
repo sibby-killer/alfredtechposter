@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-03T20:57:07.378Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122113727187259556",
+    "contentType": "portfolio_website",
+    "niche": "Restaurant / Food Business"
+  },
+  {
     "timestamp": "2026-06-03T19:54:45.691Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 5,
     "postId": "976168628917190_122112614871259556",
     "contentType": "pricing_services",
-    "niche": "Salon & Beauty"
-  },
-  {
-    "timestamp": "2026-05-22T10:56:35.473Z",
-    "success": true,
-    "postNumber": 4,
-    "postId": "976168628917190_122112607299259556",
-    "contentType": "before_after",
     "niche": "Salon & Beauty"
   }
 ]
