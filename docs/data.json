@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-04T11:20:40.342Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122113764891259556",
+    "contentType": "portfolio_website",
+    "niche": "Real Estate Agency"
+  },
+  {
     "timestamp": "2026-06-04T09:36:58.214Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122112637713259556",
     "contentType": "portfolio_website",
-    "niche": "Salon & Beauty"
-  },
-  {
-    "timestamp": "2026-05-22T16:16:51.893Z",
-    "success": true,
-    "postNumber": 7,
-    "postId": "976168628917190_122112629547259556",
-    "contentType": "problem_post",
     "niche": "Salon & Beauty"
   }
 ]
