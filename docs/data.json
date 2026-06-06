@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-06T10:12:21.589Z",
+    "success": true,
+    "postNumber": 4,
+    "postId": "976168628917190_122113960827259556",
+    "contentType": "before_after",
+    "niche": "Church / NGO"
+  },
+  {
     "timestamp": "2026-06-06T08:18:34.967Z",
     "success": true,
     "postNumber": 3,
@@ -789,14 +797,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122112834801259556",
     "contentType": "portfolio_website",
-    "niche": "E-commerce Shop"
-  },
-  {
-    "timestamp": "2026-05-24T14:56:16.908Z",
-    "success": true,
-    "postNumber": 6,
-    "postId": "976168628917190_122112826563259556",
-    "contentType": "social_proof",
     "niche": "E-commerce Shop"
   }
 ]
