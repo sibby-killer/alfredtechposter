@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-07T19:24:34.118Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122114051625259556",
+    "contentType": "portfolio_website",
+    "niche": "E-commerce Shop"
+  },
+  {
     "timestamp": "2026-06-07T17:25:14.838Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122112984771259556",
     "contentType": "portfolio_website",
-    "niche": "School / Academy"
-  },
-  {
-    "timestamp": "2026-05-26T12:40:12.554Z",
-    "success": true,
-    "postNumber": 5,
-    "postId": "976168628917190_122112975375259556",
-    "contentType": "pricing_services",
     "niche": "School / Academy"
   }
 ]
