@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-08T12:39:16.365Z",
+    "success": true,
+    "postNumber": 5,
+    "postId": "976168628917190_122114103777259556",
+    "contentType": "pricing_services",
+    "niche": "Professional Services (Lawyer/Doctor)"
+  },
+  {
     "timestamp": "2026-06-08T10:09:08.734Z",
     "success": true,
     "postNumber": 4,
@@ -789,14 +797,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122113000089259556",
     "contentType": "portfolio_website",
-    "niche": "School / Academy"
-  },
-  {
-    "timestamp": "2026-05-26T18:33:03.687Z",
-    "success": true,
-    "postNumber": 8,
-    "postId": "976168628917190_122112994509259556",
-    "contentType": "fun_fact",
     "niche": "School / Academy"
   }
 ]
