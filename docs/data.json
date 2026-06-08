@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-08T17:17:45.197Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122114127705259556",
+    "contentType": "portfolio_website",
+    "niche": "Professional Services (Lawyer/Doctor)"
+  },
+  {
     "timestamp": "2026-06-08T15:58:08.046Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122113061625259556",
     "contentType": "portfolio_website",
     "niche": "Restaurant / Food Business"
-  },
-  {
-    "timestamp": "2026-05-27T08:54:20.604Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122113047201259556",
-    "contentType": "automation_showcase",
-    "niche": "WhatsApp Auto-Reply Bot"
   }
 ]
