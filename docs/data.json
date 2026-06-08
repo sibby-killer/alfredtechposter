@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-08T14:05:02.708Z",
+    "success": true,
+    "postNumber": 6,
+    "postId": "976168628917190_122114108577259556",
+    "contentType": "social_proof",
+    "niche": "Professional Services (Lawyer/Doctor)"
+  },
+  {
     "timestamp": "2026-06-08T12:39:16.365Z",
     "success": true,
     "postNumber": 5,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122113042299259556",
     "contentType": "portfolio_website",
     "niche": "Restaurant / Food Business"
-  },
-  {
-    "timestamp": "2026-05-26T20:10:31.941Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113000089259556",
-    "contentType": "portfolio_website",
-    "niche": "School / Academy"
   }
 ]
