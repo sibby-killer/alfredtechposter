@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-09T08:53:11.834Z",
+    "success": true,
+    "postNumber": 3,
+    "postId": "976168628917190_122114173203259556",
+    "contentType": "automation_showcase",
+    "niche": "CRM & Dashboard Automation"
+  },
+  {
     "timestamp": "2026-06-09T07:42:14.883Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 8,
     "postId": "976168628917190_122113087365259556",
     "contentType": "fun_fact",
-    "niche": "Restaurant / Food Business"
-  },
-  {
-    "timestamp": "2026-05-27T16:57:36.582Z",
-    "success": true,
-    "postNumber": 7,
-    "postId": "976168628917190_122113080309259556",
-    "contentType": "problem_post",
     "niche": "Restaurant / Food Business"
   }
 ]
