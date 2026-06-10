@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-10T08:03:16.504Z",
+    "success": true,
+    "postNumber": 3,
+    "postId": "976168628917190_122114250645259556",
+    "contentType": "automation_showcase",
+    "niche": "WhatsApp Auto-Reply Bot"
+  },
+  {
     "timestamp": "2026-06-09T20:08:37.682Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122113155735259556",
     "contentType": "portfolio_website",
-    "niche": "Real Estate Agency"
-  },
-  {
-    "timestamp": "2026-05-28T16:06:09.227Z",
-    "success": true,
-    "postNumber": 7,
-    "postId": "976168628917190_122113150881259556",
-    "contentType": "problem_post",
     "niche": "Real Estate Agency"
   }
 ]
