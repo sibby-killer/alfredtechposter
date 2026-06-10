@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-10T16:54:28.361Z",
+    "success": true,
+    "postNumber": 7,
+    "postId": "976168628917190_122114282085259556",
+    "contentType": "problem_post",
+    "niche": "Restaurant / Food Business"
+  },
+  {
     "timestamp": "2026-06-10T15:42:37.675Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122113258731259556",
     "contentType": "portfolio_website",
     "niche": "Salon & Beauty"
-  },
-  {
-    "timestamp": "2026-05-29T08:58:55.357Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122113241397259556",
-    "contentType": "automation_showcase",
-    "niche": "Invoice & Report Generator"
   }
 ]
