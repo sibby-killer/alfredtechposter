@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-11T18:51:13.825Z",
+    "success": true,
+    "postNumber": 8,
+    "postId": "976168628917190_122114407353259556",
+    "contentType": "fun_fact",
+    "niche": "Real Estate Agency"
+  },
+  {
     "timestamp": "2026-06-11T17:32:44.534Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122113378893259556",
     "contentType": "portfolio_website",
-    "niche": "Church / NGO"
-  },
-  {
-    "timestamp": "2026-05-30T10:06:16.618Z",
-    "success": true,
-    "postNumber": 4,
-    "postId": "976168628917190_122113374405259556",
-    "contentType": "before_after",
     "niche": "Church / NGO"
   }
 ]
