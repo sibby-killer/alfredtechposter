@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-11T16:08:14.089Z",
+    "success": true,
+    "postNumber": 7,
+    "postId": "976168628917190_122114398761259556",
+    "contentType": "problem_post",
+    "niche": "Real Estate Agency"
+  },
+  {
     "timestamp": "2026-06-11T13:57:50.246Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122113361691259556",
     "contentType": "automation_showcase",
     "niche": "Lead Collection & Follow-up System"
-  },
-  {
-    "timestamp": "2026-05-30T06:42:24.062Z",
-    "success": true,
-    "postNumber": 2,
-    "postId": "976168628917190_122113355403259556",
-    "contentType": "tips_tricks",
-    "niche": "Church / NGO"
   }
 ]
