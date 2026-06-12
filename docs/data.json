@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-12T15:21:41.597Z",
+    "success": true,
+    "postNumber": 1,
+    "postId": "976168628917190_122114494209259556",
+    "contentType": "portfolio_website",
+    "niche": "Salon & Beauty"
+  },
+  {
     "timestamp": "2026-06-12T12:52:58.198Z",
     "success": true,
     "postNumber": 5,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122113434435259556",
     "contentType": "automation_showcase",
     "niche": "Auto Email Notification System"
-  },
-  {
-    "timestamp": "2026-05-31T07:41:14.806Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113431309259556",
-    "contentType": "portfolio_website",
-    "niche": "E-commerce Shop"
   }
 ]
