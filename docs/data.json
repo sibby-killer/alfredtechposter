@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-12T12:52:58.198Z",
+    "success": true,
+    "postNumber": 5,
+    "postId": "976168628917190_122114488935259556",
+    "contentType": "pricing_services",
+    "niche": "Salon & Beauty"
+  },
+  {
     "timestamp": "2026-06-12T11:49:07.498Z",
     "success": true,
     "postNumber": 1,
@@ -790,13 +798,5 @@
     "postId": "976168628917190_122113431309259556",
     "contentType": "portfolio_website",
     "niche": "E-commerce Shop"
-  },
-  {
-    "timestamp": "2026-05-30T19:18:54.439Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113404465259556",
-    "contentType": "portfolio_website",
-    "niche": "Church / NGO"
   }
 ]
