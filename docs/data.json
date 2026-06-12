@@ -1,5 +1,13 @@
 [
   {
+    "timestamp": "2026-06-12T08:19:56.413Z",
+    "success": true,
+    "postNumber": 3,
+    "postId": "976168628917190_122114459739259556",
+    "contentType": "automation_showcase",
+    "niche": "Invoice & Report Generator"
+  },
+  {
     "timestamp": "2026-06-11T20:24:01.332Z",
     "success": true,
     "postNumber": 1,
@@ -789,14 +797,6 @@
     "postNumber": 6,
     "postId": "976168628917190_122113389783259556",
     "contentType": "social_proof",
-    "niche": "Church / NGO"
-  },
-  {
-    "timestamp": "2026-05-30T13:45:50.787Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113386141259556",
-    "contentType": "portfolio_website",
     "niche": "Church / NGO"
   }
 ]
