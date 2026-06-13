@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-13T15:26:39.031Z",
+    "success": false,
+    "postNumber": 1,
+    "error": ""
+  },
+  {
     "timestamp": "2026-06-13T14:06:09.753Z",
     "success": true,
     "postNumber": 6,
@@ -788,14 +794,6 @@
     "success": true,
     "postNumber": 1,
     "postId": "976168628917190_122113522551259556",
-    "contentType": "portfolio_website",
-    "niche": "Professional Services (Lawyer/Doctor)"
-  },
-  {
-    "timestamp": "2026-06-01T11:00:53.743Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113511847259556",
     "contentType": "portfolio_website",
     "niche": "Professional Services (Lawyer/Doctor)"
   }
