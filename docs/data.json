@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-14T11:56:02.527Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-14T10:52:27.823Z",
     "success": false,
     "postNumber": 4,
@@ -782,13 +788,5 @@
     "postId": "976168628917190_122113594245259556",
     "contentType": "automation_showcase",
     "niche": "CRM & Dashboard Automation"
-  },
-  {
-    "timestamp": "2026-06-01T21:34:45.527Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113549575259556",
-    "contentType": "portfolio_website",
-    "niche": "Professional Services (Lawyer/Doctor)"
   }
 ]
