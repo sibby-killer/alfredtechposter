@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-14T15:43:42.985Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-14T14:09:46.120Z",
     "success": false,
     "postNumber": 6,
@@ -777,14 +783,6 @@
     "postNumber": 5,
     "postId": "976168628917190_122113610451259556",
     "contentType": "pricing_services",
-    "niche": "School / Academy"
-  },
-  {
-    "timestamp": "2026-06-02T09:54:24.825Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113598631259556",
-    "contentType": "portfolio_website",
     "niche": "School / Academy"
   }
 ]
