@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-15T17:18:21.423Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-15T15:44:36.229Z",
     "success": false,
     "postNumber": 1,
@@ -764,13 +770,5 @@
     "postId": "976168628917190_122113689159259556",
     "contentType": "before_after",
     "niche": "Restaurant / Food Business"
-  },
-  {
-    "timestamp": "2026-06-03T08:50:21.687Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122113680171259556",
-    "contentType": "automation_showcase",
-    "niche": "WhatsApp Auto-Reply Bot"
   }
 ]
