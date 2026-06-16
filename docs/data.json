@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-16T12:59:56.091Z",
+    "success": false,
+    "postNumber": 5,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-16T10:46:49.252Z",
     "success": false,
     "postNumber": 4,
@@ -750,14 +756,6 @@
     "success": true,
     "postNumber": 1,
     "postId": "976168628917190_122113727187259556",
-    "contentType": "portfolio_website",
-    "niche": "Restaurant / Food Business"
-  },
-  {
-    "timestamp": "2026-06-03T19:54:45.691Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113724301259556",
     "contentType": "portfolio_website",
     "niche": "Restaurant / Food Business"
   }
