@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-17T13:40:18.040Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-17T12:22:11.911Z",
     "success": false,
     "postNumber": 5,
@@ -734,13 +740,5 @@
     "postId": "976168628917190_122113831689259556",
     "contentType": "automation_showcase",
     "niche": "Invoice & Report Generator"
-  },
-  {
-    "timestamp": "2026-06-04T20:07:27.545Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122113798599259556",
-    "contentType": "portfolio_website",
-    "niche": "Real Estate Agency"
   }
 ]
