@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-17T15:40:38.341Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-17T13:40:18.040Z",
     "success": false,
     "postNumber": 1,
@@ -730,14 +736,6 @@
     "success": true,
     "postNumber": 3,
     "postId": "976168628917190_122113836273259556",
-    "contentType": "automation_showcase",
-    "niche": "Invoice & Report Generator"
-  },
-  {
-    "timestamp": "2026-06-05T08:01:58.655Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122113831689259556",
     "contentType": "automation_showcase",
     "niche": "Invoice & Report Generator"
   }
