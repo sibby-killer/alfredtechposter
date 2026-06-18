@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-18T15:32:13.839Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-18T12:50:08.663Z",
     "success": false,
     "postNumber": 5,
@@ -716,13 +722,5 @@
     "postId": "976168628917190_122113954677259556",
     "contentType": "automation_showcase",
     "niche": "Lead Collection & Follow-up System"
-  },
-  {
-    "timestamp": "2026-06-06T06:49:33.495Z",
-    "success": true,
-    "postNumber": 2,
-    "postId": "976168628917190_122113950591259556",
-    "contentType": "tips_tricks",
-    "niche": "Church / NGO"
   }
 ]
