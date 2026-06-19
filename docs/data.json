@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-19T18:04:08.600Z",
+    "success": false,
+    "postNumber": 8,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-19T16:28:10.840Z",
     "success": false,
     "postNumber": 7,
@@ -695,14 +701,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122114028777259556",
     "contentType": "portfolio_website",
-    "niche": "E-commerce Shop"
-  },
-  {
-    "timestamp": "2026-06-07T10:33:25.129Z",
-    "success": true,
-    "postNumber": 4,
-    "postId": "976168628917190_122114026155259556",
-    "contentType": "before_after",
     "niche": "E-commerce Shop"
   }
 ]
