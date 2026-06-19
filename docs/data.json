@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-19T15:26:44.121Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-19T13:34:05.354Z",
     "success": false,
     "postNumber": 1,
@@ -700,13 +706,5 @@
     "postId": "976168628917190_122114020875259556",
     "contentType": "automation_showcase",
     "niche": "Auto Email Notification System"
-  },
-  {
-    "timestamp": "2026-06-07T07:50:37.070Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122114017905259556",
-    "contentType": "portfolio_website",
-    "niche": "E-commerce Shop"
   }
 ]
