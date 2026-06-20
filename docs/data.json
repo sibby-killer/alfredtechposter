@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-20T11:54:52.695Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-20T10:36:59.388Z",
     "success": false,
     "postNumber": 4,
@@ -686,13 +692,5 @@
     "postId": "976168628917190_122114085717259556",
     "contentType": "automation_showcase",
     "niche": "Google Sheets Data Automation"
-  },
-  {
-    "timestamp": "2026-06-07T19:24:34.118Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122114051625259556",
-    "contentType": "portfolio_website",
-    "niche": "E-commerce Shop"
   }
 ]
