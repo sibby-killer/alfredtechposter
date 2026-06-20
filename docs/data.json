@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-20T15:29:17.579Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-20T14:10:04.000Z",
     "success": false,
     "postNumber": 6,
@@ -681,14 +687,6 @@
     "postNumber": 5,
     "postId": "976168628917190_122114103777259556",
     "contentType": "pricing_services",
-    "niche": "Professional Services (Lawyer/Doctor)"
-  },
-  {
-    "timestamp": "2026-06-08T10:09:08.734Z",
-    "success": true,
-    "postNumber": 4,
-    "postId": "976168628917190_122114095875259556",
-    "contentType": "before_after",
     "niche": "Professional Services (Lawyer/Doctor)"
   }
 ]
