@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-21T15:46:05.098Z",
+    "success": false,
+    "postNumber": 1,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-21T14:17:45.076Z",
     "success": false,
     "postNumber": 6,
@@ -666,13 +672,5 @@
     "postId": "976168628917190_122114183949259556",
     "contentType": "portfolio_website",
     "niche": "School / Academy"
-  },
-  {
-    "timestamp": "2026-06-09T08:53:11.834Z",
-    "success": true,
-    "postNumber": 3,
-    "postId": "976168628917190_122114173203259556",
-    "contentType": "automation_showcase",
-    "niche": "CRM & Dashboard Automation"
   }
 ]
