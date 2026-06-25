@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-25T12:19:07.562Z",
+    "success": false,
+    "postNumber": 5,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-25T10:48:26.881Z",
     "success": false,
     "postNumber": 4,
@@ -606,13 +612,5 @@
     "postId": "976168628917190_122114542359259556",
     "contentType": "portfolio_website",
     "niche": "Church / NGO"
-  },
-  {
-    "timestamp": "2026-06-12T20:12:29.699Z",
-    "success": true,
-    "postNumber": 1,
-    "postId": "976168628917190_122114511381259556",
-    "contentType": "portfolio_website",
-    "niche": "Salon & Beauty"
   }
 ]
