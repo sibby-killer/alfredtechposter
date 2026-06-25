@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-06-25T10:48:26.881Z",
+    "success": false,
+    "postNumber": 4,
+    "error": "Request failed with status code 400"
+  },
+  {
     "timestamp": "2026-06-25T08:42:20.172Z",
     "success": false,
     "postNumber": 3,
@@ -607,14 +613,6 @@
     "postNumber": 1,
     "postId": "976168628917190_122114511381259556",
     "contentType": "portfolio_website",
-    "niche": "Salon & Beauty"
-  },
-  {
-    "timestamp": "2026-06-12T18:13:15.769Z",
-    "success": true,
-    "postNumber": 8,
-    "postId": "976168628917190_122114505471259556",
-    "contentType": "fun_fact",
     "niche": "Salon & Beauty"
   }
 ]
